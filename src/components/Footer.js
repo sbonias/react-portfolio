@@ -1,8 +1,13 @@
 import React from 'react';
 import '../App.css';
+// importing fontawesome libraries for icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook, faSquare } from '@fortawesome/free-solid-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faBook } from '@fortawesome/free-solid-svg-icons';
+import {
+  fab,
+  faLinkedinIn,
+  faGithub,
+} from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
@@ -13,6 +18,7 @@ function Footer() {
         <span className="text-white">
           Github &nbsp;
           <i className="text-white fa fa-github fa-lg"></i>
+          <FontAwesomeIcon icon={faGithub} />
         </span>
       </a>
       {/* <!-- divider --> */}
@@ -23,9 +29,9 @@ function Footer() {
         target="_blank"
       >
         <span className="text-white">
-          Linked &nbsp;
-          <FontAwesomeIcon icon={[fab]} />
-          <i className="text-white fa fa-linkedin fa-md"></i>
+          LinkedIn &nbsp;
+          <FontAwesomeIcon icon={faLinkedinIn} />
+          {/* <i className="text-white fa fa-linkedin fa-md"></i> */}
         </span>
       </a>
       {/* <!-- divider --> */}
@@ -37,7 +43,7 @@ function Footer() {
       >
         <span className="text-white">
           Resume &nbsp;
-          <i className="text-white fa fa-book fa-md"></i>
+          {/* <i className="text-white fa fa-book fa-md"></i> */}
           <FontAwesomeIcon icon={faBook} />
         </span>
       </a>
