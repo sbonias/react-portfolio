@@ -4,7 +4,7 @@ import React from 'react';
 function Contact() {
   /*Applied modified forms bootstrap component*/
   return (
-    <div className="contact-form">
+    <div className="contact-form" id="contact">
       <div className="container">
         {/*Placed content in card*/}
         <div className="card" style={{ width: '100%', padding: 20 }}>

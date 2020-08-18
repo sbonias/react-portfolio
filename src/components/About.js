@@ -3,7 +3,8 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="container">
+    <div className="container" id="about">
+      <br />
       {/*Placed content in card*/}
       <div className="card" style={{ width: '100%', padding: 20 }}>
         {/*First row of container*/}
@@ -63,6 +64,7 @@ function About() {
         </div>
       </div>
       {/* Bootstraps JS CDN reference */}
+      <br />
     </div>
   );
 }
