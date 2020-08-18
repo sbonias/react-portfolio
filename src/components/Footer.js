@@ -1,13 +1,10 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import '../App.css';
 // importing fontawesome libraries for icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
-import {
-  fab,
-  faLinkedinIn,
-  faGithub,
-} from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
@@ -17,7 +14,7 @@ function Footer() {
       <a href="https://github.com/sbonias/" target="_blank">
         <span className="text-white">
           Github &nbsp;
-          <i className="text-white fa fa-github fa-lg"></i>
+          {/* <i className="text-white fa fa-github fa-lg"></i> */}
           <FontAwesomeIcon icon={faGithub} />
         </span>
       </a>
